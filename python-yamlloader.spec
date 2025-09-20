@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module
 
 Summary:	Ordered YAML loader and dumper for PyYAML
 Summary(pl.UTF-8):	Moduł dla PyYAML-a do wczytywania i zapisywania YAML-a z zachowaniem porządku
